@@ -112,7 +112,7 @@ option|description|type|accepted values|default value
 background|Undo bar's background color|string|ionic color names|dark
 color|Undo bar's foreground color|string|ionic color names|light
 deletedText|Undo bar's deleted text (left side)|string|text|deleted
-undoText|Undo bar's undo (right side)|string|text|UNDO
+undoText|Undo bar's undo text (right side)|string|text|UNDO
 icon|Undo button's icon|string|ionic icon css classes|ion-ios-undo
 undoAndroid|Enabling / disabling undo feature on Android|boolean|true, false|true
 undoIos|Enabling / disabling undo feature on iOS|boolean|true, false|true
