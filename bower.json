@@ -13,8 +13,6 @@
     "test",
     "gulpfile.js",
     "karma-*.conf.js",
-    "/nbproject/",
-    "/lib/",
     "**/.*"
   ],
   "dependencies": {},
