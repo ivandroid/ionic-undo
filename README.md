@@ -147,6 +147,8 @@ Use it in your undo function.
 
 ##### init(originalObject, undoFunction, deletedText, undoText)
 
+Via this method you can initialize the undo feature passing the following parameters:
+
 Param|Type|Details
 ---|---|---
 `originalObject`|object or array|Original object or array, e.g. deleted list item(s)
