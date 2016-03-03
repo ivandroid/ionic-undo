@@ -20,8 +20,8 @@ This plugin provides undo feature similar to several Google apps on Android. It 
 2. Include javascript and css files or their minified versions in your `index.html` file.
 
     ```html
-    <link href="./ionic-undo.min.css" rel="stylesheet">
-    <script src="./ionic-undo.min.js"></script>
+    <link href="style/css/ionic-undo.min.css" rel="stylesheet">
+    <script src="dist/ionic-undo.min.js"></script>
     ```
     
 3. Add the module `ionicUndo` to your application dependencies:
