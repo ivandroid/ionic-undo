@@ -175,7 +175,7 @@ Use this directive to show / hide undo bar on Android. Add it to a view after th
 
 ## Author
 
-Param|Type
+ | 
 ---|---
 email|ivan.weber@gmx.de
 twitter|https://twitter.com/_ivandroid_
