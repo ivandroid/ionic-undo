@@ -34,7 +34,7 @@ This plugin provides undo feature similar to several Google apps on Android. It 
 5. After modifying your object in the view controller invoke the `init` method of the `$ionicUndo` service passing the original object and your specific undo function as parameters.
 You can get the original object via the `$ionicUndo` service's `get` method.
 
-#### Example
+#### Example *(based on the ionic starter tabs app)*
 
 ```html
 <ion-view view-title="Chats">
