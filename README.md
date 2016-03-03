@@ -111,14 +111,14 @@ angular.module('starter', ['ionic', 'ionicUndo'])
 
 ### Service `$ionicUndo`
 
-Using this service you can use the following methods:
+#### Methods
 
-#### get()
+##### get()
 
 Using this method you can retrieve your original object or array of objects (before its modification). 
 Use it in your undo function.
 
-#### init(originalObject, undoFunction, deletedText, undoText)
+##### init(originalObject, undoFunction, deletedText, undoText)
 
 Param|Type|Details
 ---|---|---
@@ -127,8 +127,8 @@ Param|Type|Details
 `deletedText`|string|Optional: Undo bar's deleted text
 `undoText`|String|Optional: Undo bar's undo text 
 
-#### Example
-##### Code
+##### Example
+###### Code
 
 ```javascript
 angular.module('starter.controllers', [])
@@ -146,7 +146,7 @@ angular.module('starter.controllers', [])
 });
 ```
 
-##### Result
+###### Result
 ![screenshot1](http://fs5.directupload.net/images/160303/of3fydfj.png)
 
 ## Directives
