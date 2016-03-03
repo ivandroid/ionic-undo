@@ -59,6 +59,16 @@ You can get the original object via the `$ionicUndo` service's `get` method.
     </ion-content>
     <ion-undo-bar></ion-undo-bar>
 </ion-view>
+
+<ion-view view-title="{{chat.name}}">
+    <ion-nav-buttons side="right">
+        <button class="button button-icon icon {{deleteIcon}}" ng-click="delete()"></button>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <img ng-src="{{chat.face}}" style="width: 64px; height: 64px">
+        <p>{{chat.lastText}}</p>
+    </ion-content>
+</ion-view>
 ```
 
 ```javascript
@@ -72,6 +82,22 @@ angular.module('starter.controllers', [])
             var deletedChat = $ionicUndo.get();
             Chats.add(deletedChat);
         });
+    };
+})
+
+.controller('ChatDetailCtrl', function($ionicHistory, $ionicUndo, $scope, $stateParams, Chats) {
+    $scope.chat = Chats.get($stateParams.chatId);
+    $scope.deleteIcon = ionic.Platform.isAndroid() ? "ion-android-delete" : "ion-ios-trash";
+    
+    $scope.delete = function() {
+        Chats.delete($scope.chat);
+        
+        $ionicUndo.init($scope.chat, function() {
+            var deletedChat = $ionicUndo.get();
+            Chats.add(deletedChat);
+        });
+        
+        $ionicHistory.goBack();
     };
 });
 ```
