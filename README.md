@@ -153,8 +153,8 @@ Param|Type|Details
 ---|---|---
 `originalObject`|object or array|Original object or array, e.g. deleted list item(s)
 `undoFunction`|function|Undo function which is invoked if the undo-button (undo-bar) is pressed
-`deletedText`|string|Optional: Undo bar's deleted text
-`undoText`|string|Optional: Undo bar's undo text 
+`deletedText`|string|Optional: undo bar's deleted text
+`undoText`|string|Optional: undo bar's undo text 
 
 ##### Example
 ###### Code
@@ -182,11 +182,11 @@ angular.module('starter.controllers', [])
 
 ### Directive `ion-undo-button`
 
-Use this directive to show / hide undo button on iOS.
+Use this directive to show / hide the undo button on iOS.
 
 ### Directive `ion-undo-bar`
 
-Use this directive to show / hide undo bar on Android. Add it to a view after the `ion-content` element.
+Use this directive to show / hide the undo bar on Android. Add it to a view after the `ion-content` element.
 
 #### Example
 
