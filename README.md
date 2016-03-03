@@ -169,7 +169,7 @@ angular.module('starter.controllers', [])
         
         $ionicUndo.init(chat, function() {
             var deletedChat = $ionicUndo.get();
-            Chats.add(deletedChat);
+            Chats.all().push(deletedChat);
         }, "deleted items", "UNDO THAT!");
     };
 });
