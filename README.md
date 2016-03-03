@@ -80,7 +80,7 @@ angular.module('starter.controllers', [])
         
         $ionicUndo.init(chat, function() {
             var deletedChat = $ionicUndo.get();
-            Chats.add(deletedChat);
+            Chats.all().push(deletedChat);
         });
     };
 })
@@ -94,7 +94,7 @@ angular.module('starter.controllers', [])
         
         $ionicUndo.init($scope.chat, function() {
             var deletedChat = $ionicUndo.get();
-            Chats.add(deletedChat);
+            Chats.all().push(deletedChat);
         });
         
         $ionicHistory.goBack();
