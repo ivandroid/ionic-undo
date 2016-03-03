@@ -6,7 +6,7 @@ This plugin provides undo feature similar to several Google apps on Android. It 
 ![animated example](http://i.giphy.com/l2JJDowgKTFn0qLKg.gif)
 
 ## Features 
-* restoring the previous state of your objects
+* restoring last state of your objects
 * undo bar for Android
 * undo button for iOS
 
