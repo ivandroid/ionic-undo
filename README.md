@@ -85,7 +85,7 @@ option|description|type|accepted values|default value
 ---|---|---|---|---
 background|Undo bar's background color|string|ionic color names|dark
 color|Undo bar's foreground color|string|ionic color names|light
-deletedText|Undo bar's deleted text(left side)|string|text|deleted
+deletedText|Undo bar's deleted text (left side)|string|text|deleted
 undoText|Undo bar's undo (right side)|string|text|UNDO
 icon|Undo button's icon|string|ionic icon css classes|ion-ios-undo
 undoAndroid|Enabling / disabling undo feature on Android|boolean|true, false|true
@@ -126,7 +126,7 @@ Param|Type|Details
 `originalObject`|object or array|Original object or array, e.g. deleted list item(s)
 `undoFunction`|function|Undo function which is invoked if the undo-button (undo-bar) is pressed
 `deletedText`|string|Optional: Undo bar's deleted text
-`undoText`|String|Optional: Undo bar's undo text 
+`undoText`|string|Optional: Undo bar's undo text 
 
 ##### Example
 ###### Code
