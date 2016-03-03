@@ -158,7 +158,20 @@ Use this directive to show / hide undo button on iOS.
 
 ### Directive `ion-undo-bar`
 
-Use this directive to show / hide undo bar on Android.
+Use this directive to show / hide undo bar on Android. Add it to a view after the `ion-content` element.
+
+#### Example
+
+```html
+<ion-view view-title="Chats">
+    <ion-nav-buttons side="right">
+        <ion-undo-button></ion-undo-button>
+    </ion-nav-buttons>
+    <ion-content>
+    </ion-content>
+    <ion-undo-bar></ion-undo-bar>
+</ion-view>
+```
 
 ##License
 
