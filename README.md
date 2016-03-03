@@ -173,10 +173,18 @@ Use this directive to show / hide undo bar on Android. Add it to a view after th
 </ion-view>
 ```
 
-##License
+## Author
+
+---|---
+email|ivan.weber@gmx.de
+twitter|https://twitter.com/_ivandroid_
+github|https://github.com/ivandroid
+ionic market|https://market.ionic.io/user/6540
+
+## License
 
 [MIT](https://github.com/ivandroid/ionic-undo/blob/master/LICENSE)
 
-##Versions
+## Versions
 
 [CHANGELOG](https://github.com/ivandroid/ionic-undo/blob/master/CHANGELOG.md)
