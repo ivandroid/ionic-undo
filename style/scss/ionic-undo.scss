@@ -1,0 +1,104 @@
+/*!
+ * Copyright 2016 Ivan Weber
+ *
+ * ionic-undo, v1.0.0
+ *
+ * By @_ivandroid_
+ *
+ * Licensed under the MIT license. Please see LICENSE for more information.
+ *
+ */
+
+.bar.ionic-undo-bar { 
+    display: block;
+    height: 44px;
+    bottom: 0px;
+    text-align: center;
+    line-height: 24px;
+    z-index: 21;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.ionic-undo-bar.ng-enter {
+    -webkit-animation:  slideInUp 0.5s;
+    animation: slideInUp 0.3s; 
+}
+
+.ionic-undo-bar.ng-leave {
+    -webkit-animation: slideOutDown 0.5s;
+    animation: slideOutDown 0.3s; 
+}
+
+.ionic-undo-left {
+    float: left;
+    font-size: 14px;
+}
+
+.ionic-undo-right {
+    float: right;
+    font-size: 14px;
+}
+
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+@-webkit-keyframes slideOutDown {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes slideOutDown {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.slideOutDown {
+  -webkit-animation-name: slideOutDown;
+  animation-name: slideOutDown;
+}

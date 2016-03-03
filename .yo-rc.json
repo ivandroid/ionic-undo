@@ -1,0 +1,29 @@
+{
+  "generator-angularjs-library": {
+    "props": {
+      "author": {
+        "name": "Ivan Weber",
+        "email": "ivan.weber@gmx.de"
+      },
+      "libraryName": {
+        "original": "ionic-undo",
+        "camelized": "ionicUndo",
+        "dasherized": "ionic-undo",
+        "slugified": "ionic-undo",
+        "parts": [
+          "ionic",
+          "undo"
+        ]
+      },
+      "includeModuleDirectives": false,
+      "includeModuleFilters": false,
+      "includeModuleServices": false,
+      "includeAngularModuleResource": false,
+      "includeAngularModuleCookies": false,
+      "includeAngularModuleSanitize": false,
+      "librarySrcDirectory": "src/ionic-undo",
+      "libraryUnitTestDirectory": "test/unit/ionic-undo",
+      "libraryUnitE2eDirectory": "test/e2e/ionic-undo"
+    }
+  }
+}
