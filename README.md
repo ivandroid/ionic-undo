@@ -128,6 +128,8 @@ angular.module('starter', ['ionic', 'ionicUndo'])
     $ionicUndoConfigProvider.setDeletedText('deleted items!');
     $ionicUndoConfigProvider.setUndoText('UNDO THAT!');
     $ionicUndoConfigProvider.setIcon('ion-ios-undo-outline');
+    $ionicUndoConfigProvider.setUndoAndroid(true);
+    $ionicUndoConfigProvider.setUndoIos(false);
 });
 ```
 
