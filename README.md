@@ -1,4 +1,4 @@
-# ionic-undo  
+# <img src="http://fs5.directupload.net/images/160429/2bxnrthw.png" width="30"> ionic-undo  
 
 This plugin provides undo feature similar to several Google apps on Android. It can be integrated into your ionic 1.x app.
 
