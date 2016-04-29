@@ -1,16 +1,46 @@
 # <img src="http://fs5.directupload.net/images/160429/2bxnrthw.png" width="30"> ionic-undo  
 
+* [Info](#1-info)
+    * [Features](#11-features)
+    * [Demo](#12-demo)
+    * [Author](#13-author)
+    * [License](#14-license)
+    * [Versions](#15-versions)
+* [Usage](#2-usage)
+* [Configuration provider](#3-configuration-provider)
+* [Services](#4-services)
+* [Directives](#5-directives)
+
+##1. Info
 This plugin provides undo feature similar to several Google apps on Android. It can be integrated into your ionic 1.x app.
+You can test the plugin via the [ionic view app](http://view.ionic.io/) with the ID **120e45c6**.
 
-## [Demo](http://app-ionicundo.herokuapp.com)  
-![animated example](http://i.giphy.com/l2JJDowgKTFn0qLKg.gif)
-
-## Features 
+##1.1 Features 
 * restoring last state of your objects
 * undo bar for Android
 * undo button for iOS
+* 
+##[1.2 Demo](http://app-ionicundo.herokuapp.com)  
+![animated example](http://i.giphy.com/l2JJDowgKTFn0qLKg.gif)
 
-## Quick start 
+###1.3 Author
+* E-Mail: ivan.weber@gmx.de
+* Twitter: https://twitter.com/hybrid_app
+* Github: https://github.com/ivandroid
+* Ionic Market: https://market.ionic.io/user/6540
+* Donations: You're welcome to donate. Any amount at any time! :-)
+
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ivan%2eweber%40gmx%2ede&lc=DE&item_name=GithubRepositories&no_note=0&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest)
+
+##1.4 License
+
+[MIT](https://github.com/ivandroid/ionic-undo/blob/master/LICENSE)
+
+##1.5 Versions
+
+[CHANGELOG](https://github.com/ivandroid/ionic-undo/blob/master/CHANGELOG.md)
+
+##2. Usage
 1. Get the files from here or install from bower:
 
     ```
@@ -102,7 +132,7 @@ angular.module('starter.controllers', [])
 });
 ```
 
-## Configuration provider
+##3. Configuration provider
 
 In the angular configuration phase you can define global settings for this plugin. For that purpose there is a provider named `$ionicUndoConfigProvider`.
 The following options can be set in the configuration phase:
@@ -136,7 +166,7 @@ angular.module('starter', ['ionic', 'ionicUndo'])
 ##### Result
 ![screenshot1](http://fs5.directupload.net/images/160302/57mqqv6r.png)
 
-## Services
+##4. Services
 
 ### Service `$ionicUndo`
 
@@ -180,7 +210,7 @@ angular.module('starter.controllers', [])
 ###### Result
 ![screenshot1](http://fs5.directupload.net/images/160303/of3fydfj.png)
 
-## Directives
+##4. Directives
 
 ### Directive `ion-undo-button`
 
@@ -202,20 +232,3 @@ Use this directive to show / hide the undo bar on Android. Add it to a view afte
     <ion-undo-bar></ion-undo-bar>
 </ion-view>
 ```
-
-## Author
-
-☟|☟
----|---
-email|ivan.weber@gmx.de
-twitter|https://twitter.com/hybrid_app
-github|https://github.com/ivandroid
-ionic market|https://market.ionic.io/user/6540
-
-## License
-
-[MIT](https://github.com/ivandroid/ionic-undo/blob/master/LICENSE)
-
-## Versions
-
-[CHANGELOG](https://github.com/ivandroid/ionic-undo/blob/master/CHANGELOG.md)
