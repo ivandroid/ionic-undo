@@ -19,7 +19,7 @@ You can test the plugin via the [ionic view app](http://view.ionic.io/) with the
 * restoring last state of your objects
 * undo bar for Android
 * undo button for iOS
-* 
+
 ##[1.2 Demo](http://app-ionicundo.herokuapp.com)  
 ![animated example](http://i.giphy.com/l2JJDowgKTFn0qLKg.gif)
 
