@@ -210,7 +210,7 @@ angular.module('starter.controllers', [])
 ###### Result
 ![screenshot1](http://fs5.directupload.net/images/160303/of3fydfj.png)
 
-##4. Directives
+##5. Directives
 
 ### Directive `ion-undo-button`
 
