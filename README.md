@@ -1,11 +1,6 @@
 # <img src="http://fs5.directupload.net/images/160429/2bxnrthw.png" width="30"> ionic-undo  
 
 * [Info](#1-info)
-    * [Features](#11-features)
-    * [Demo](#12-demo)
-    * [License](#13-license)
-    * [Versions](#14-versions)
-    * [Author](#15-author)
 * [Usage](#2-usage)
 * [Configuration provider](#3-configuration-provider)
 * [Services](#4-services)
@@ -21,7 +16,8 @@ You can test the plugin via the [ionic view app](http://view.ionic.io/) with the
 * undo button for iOS
 
 ##[1.2 Demo](http://app-ionicundo.herokuapp.com)  
-![animated example](http://i.giphy.com/l2JJDowgKTFn0qLKg.gif)
+#### [Ionic Playground](http://play.ionic.io/app/9820a919a84c)  
+####![animation](https://dl.dropbox.com/s/91du4lloj88gsv6/demo.gif)
 
 ##1.3 License
 
