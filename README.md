@@ -15,8 +15,8 @@ You can test the plugin via the [ionic view app](http://view.ionic.io/) with the
 * undo bar for Android
 * undo button for iOS
 
-##[1.2 Demo](http://app-ionicundo.herokuapp.com)  
-#### [Ionic Playground](http://play.ionic.io/app/9820a919a84c)  
+##1.2 Demo 
+#### [Ionic Playground](http://play.ionic.io/app/79167c959551)  
 ####![animation](https://dl.dropbox.com/s/91du4lloj88gsv6/demo.gif)
 
 ##1.3 License
